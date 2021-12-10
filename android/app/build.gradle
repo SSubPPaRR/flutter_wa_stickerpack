@@ -50,6 +50,17 @@ android {
     }
 }
 
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+
+//    def fresco_version = '2.2.0'
+//    implementation "com.facebook.fresco:fresco:$fresco_version"
+//    implementation "com.facebook.fresco:webpsupport:$fresco_version"
+//    implementation "com.facebook.fresco:animated-webp:$fresco_version"
+//    implementation "com.facebook.fresco:animated-base:$fresco_version"
+}
+
 flutter {
     source '../..'
 }
