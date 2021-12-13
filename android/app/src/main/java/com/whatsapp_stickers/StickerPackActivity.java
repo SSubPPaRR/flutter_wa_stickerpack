@@ -25,7 +25,7 @@ public class StickerPackActivity implements PluginRegistry.ActivityResultListene
 
     static final int ADD_PACK = 200;
 
-    private Context context;
+    private final Context context;
 
     StickerPackActivity(@NonNull Context context) {
         this.context = context;

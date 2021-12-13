@@ -29,7 +29,7 @@ class WhatsAppStickers {
   static const businessWhatsAppPackageName = 'com.whatsapp.w4b';
 
   static const MethodChannel _channel =
-      MethodChannel('io/whatsapp_stickers');
+      MethodChannel('io.whatsapp_stickers');
   MessageHandler? _addStickerPackListener;
 
   /// Get the platform version
